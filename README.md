@@ -96,11 +96,11 @@ Please cite our work in your publications if it helps your research:
 
 ```
 @article{guo2022intermediate,
-title={An Intermediate-level Attack Framework on The Basis of Linear Regression},
-author={Guo, Yiwen and Li, Qizhang and Zuo, Wangmeng and Chen, Hao},
-journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-year={2022},
-publisher={IEEE}
+  title={An Intermediate-level Attack Framework on The Basis of Linear Regression},
+  author={Guo, Yiwen and Li, Qizhang and Zuo, Wangmeng and Chen, Hao},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2022},
+  publisher={IEEE}
 }
 
 @inproceedings{li2020yet,
