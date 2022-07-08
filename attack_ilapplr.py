@@ -28,9 +28,9 @@ parser.add_argument('--ila-layer', type=str, default='3_0')
 parser.add_argument('--lr-method', type=str, default=None, choices=["RR", "SVR", "ElasticNet"])
 parser.add_argument('--njobs', type=int, default = 50)
 parser.add_argument('--random-start', default=False, action="store_true")
-parser.add_argument('--data-dir', type=int, default=None)
-parser.add_argument('--data-info-dir', type=int, default=None)
-parser.add_argument('--source-model-dir', type=int, default=None)
+parser.add_argument('--data-dir', type=str, default=None)
+parser.add_argument('--data-info-dir', type=str, default=None)
+parser.add_argument('--source-model-dir', type=str, default=None)
 args = parser.parse_args()
 
 

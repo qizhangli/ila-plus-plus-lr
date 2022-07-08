@@ -26,9 +26,9 @@ parser.add_argument('--constraint', type=str, default="linf", choices=["linf", "
 parser.add_argument('--method', type=str, default=None, choices=["IFGSM", "PGD", "LinBP"])
 parser.add_argument('--linbp-layer', type=str, default="3_3")
 parser.add_argument('--restart', type=int, default=None)
-parser.add_argument('--data-dir', type=int, default=None)
-parser.add_argument('--data-info-dir', type=int, default=None)
-parser.add_argument('--source-model-dir', type=int, default=None)
+parser.add_argument('--data-dir', type=str, default=None)
+parser.add_argument('--data-info-dir', type=str, default=None)
+parser.add_argument('--source-model-dir', type=str, default=None)
 args = parser.parse_args()
 
 
